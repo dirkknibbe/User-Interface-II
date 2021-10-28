@@ -1,0 +1,154 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    max-width:100%;
+    border:0px solid grey;
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+a{
+    font-family: 'Zen Antique', serif;
+    text-decoration:none;
+}
+
+h1{
+    font-size:5rem;
+    font-family: 'Zen Antique', serif;
+    display:flex 
+}
+h2{
+    font-size:5rem;
+    font-family: 'Zen Antique', serif;
+    display:flex 
+}
+
+.titletext h1{
+    justify-content: center;
+    font-size: 60px;
+}
+.titletext a{
+    display: flex;
+    margin: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 25px;
+    
+}
+.titletext h2{
+    display: flex;
+    justify-content: center;
+    margin:1rem;
+    font-size: 40px;
+}
+.titletext p{
+    display: flex;
+    margin:5rem;
+    
+}
+section{
+    padding:4% 0;
+}
+.bg-img{
+    height:50vh;
+    background-image: url('https://picsum.photos/200/300');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.projectlist{
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: content-box;
+    margin:1rem;
+    
+    
+}
+.project1{
+    background-image: url('https://picsum.photos/200/300');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem;
+    height:500px;
+    width: 200px;  
+}
+.project2{
+    background-image: url('https://picsum.photos/200/300');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem;
+    height:500px;
+    width: 200px;  
+}
+.project3{
+    background-image: url('https://picsum.photos/200/300');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem;
+    height:500px;
+    width: 200px;  
+}
+.project4{
+    background-image: url('https://picsum.photos/200/300');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem;
+    height:500px;
+    width: 200px;  
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+.projectdescript{
+    width: 20%;
+    
+}
+.projectdescript{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectdescript p{
+    text-align: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+
+}
+button{
+    padding: 20px 80px;
+    font-size: 30px;
+}
+
+
+
