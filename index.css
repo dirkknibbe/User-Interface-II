@@ -21,7 +21,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     margin:0;
     box-sizing:border-box;
     max-width:100%;
-    border:0px solid grey;
+    border:1px solid grey;
 }
 
 /*General Styles*/
@@ -37,6 +37,8 @@ body{
 a{
     font-family: 'Zen Antique', serif;
     text-decoration:none;
+    color:#4f4f4f
+    
 }
 
 h1{
@@ -150,5 +152,30 @@ button{
     font-size: 30px;
 }
 
+/* media queries*/
 
-
+/* tablet styles*/
+@media(max-width:800px){
+.boxes{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.projectlist{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projectdescript{
+    width:80%
+}
+    
+    
+}
+/* mobile styles*/
+@media(max-width:400px){
+    
+.titletext h2{
+    align-items: center;
+}
+}
