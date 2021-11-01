@@ -37,6 +37,8 @@ body{
 a{
     font-family: 'Zen Antique', serif;
     text-decoration:none;
+    color:#4f4f4f
+    
 }
 
 h1{
@@ -150,5 +152,30 @@ button{
     font-size: 30px;
 }
 
+/* media queries*/
 
+/* tablet styles*/
+@media(max-width:800px){
+.boxes{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.projectlist{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projectdescript{
+    width:80%
+}
+    
+    
+}
+/* mobile styles*/
+@media(max-width:400px){
 
+.titletext h2{
+    font-size: 3.5rem;
+}
+}
