@@ -21,7 +21,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     margin:0;
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid grey;
+    border:0px solid grey;
 }
 
 /*General Styles*/
@@ -176,6 +176,6 @@ button{
 @media(max-width:400px){
 
 .titletext h2{
-    font-size: 35px;
+    font-size: 3.5rem;
 }
 }
