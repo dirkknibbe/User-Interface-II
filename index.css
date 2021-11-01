@@ -174,8 +174,8 @@ button{
 }
 /* mobile styles*/
 @media(max-width:400px){
-    
+
 .titletext h2{
-    align-items: center;
+    font-size: 35px;
 }
 }
